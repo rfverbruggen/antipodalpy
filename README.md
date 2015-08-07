@@ -1,4 +1,4 @@
-Anitpodalpy
+Antipodalpy
 ===========
 A python library to calculate the Antipodal point of a location on a sphere. E.g. the earth.
 
@@ -8,7 +8,7 @@ In mathematics, the antipodal point of a point on the surface of a sphere is the
 
 Usage
 -----
-'''python
+```python
 from antipodalpy import Antipodal, Location
 
 location = Location(19.568469, 204.19083341) # lat, lon
@@ -16,4 +16,4 @@ location = Location(19.568469, 204.19083341) # lat, lon
 antipodal = Antipodal(location)
 print antipodal.lat # -19.568469
 print antipodal.lon # -24.19083341
-'''
+```
